@@ -133,13 +133,11 @@ function startQuiz() {
 }
 
 function restartQuiz() {
-    countdownContainer.innerHTML = '';
-    currentQuestion = 0;
-    score = 0;
-    startContainer.style.display = 'block';
-    quizContainer.style.display = 'none';
+    window.location.href = "cadastro.html";
 }
+
+
 
 startButton.onclick = startQuiz;
 
-restartQuiz();
+//restartQuiz();
