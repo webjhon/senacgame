@@ -1,9 +1,9 @@
 <?php
 // Conexão com o banco de dados
-$host = 'localhost';
-$db   = 'cadastro';
-$user = 'root'; // Substitua pelo seu usuário do MySQL
-$pass = '';   // Substitua pela sua senha do MySQL (ou deixe em branco se não tiver senha)
+$host = '127.0.0.1:3306';
+$db   = 'u122206803_cadastro';
+$user = 'u122206803_root'; // Substitua pelo seu usuário do MySQL
+$pass = 'Senac.201'; // Substitua pela sua senha do MySQL
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

@@ -1,5 +1,5 @@
 <?php
-$host = 'profejoao.com.br:3306';
+$host = '127.0.0.1:3306';
 $db   = 'u122206803_cadastro';
 $user = 'u122206803_root'; // Substitua pelo seu usuário do MySQL
 $pass = 'Senac.201'; // Substitua pela sua senha do MySQL
