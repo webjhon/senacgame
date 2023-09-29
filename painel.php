@@ -47,7 +47,7 @@
     </div>
 
     <div class="container">
-        <h2 class="text-center">Cadastros Realizados</h2>
+        <h2 class="text-center">Retirada de Brindes</h2>
         <div id="usuarios"></div>
     </div>
     <script>
