@@ -40,7 +40,7 @@ foreach ($usuarios as $usuario) {
     echo '<td>' . htmlspecialchars($usuario['nome']) . '</td>';
     echo '<td>' . htmlspecialchars($usuario['telefone']) . '</td>';
     echo '<td>' . htmlspecialchars($usuario['curso']) . '</td>';
-    echo '<td><button class="btn btn-danger" onclick="deletarUsuario(' . $usuario['id'] . ')">Deletar</button></td>';
+    echo '<td><button class="btn btn-danger" onclick="deletarUsuario(' . $usuario['id'] . ')">Retirou</button></td>';
     echo '</tr>';
 }
 
