@@ -25,11 +25,19 @@ if (isset($_POST['id'])) {
     $id = $_POST['id'];
 
     try {
+        // Desativa a verificação de chave estrangeira
+        $pdo->exec("SET foreign_key_checks = 0;");
+
         $stmt = $pdo->prepare("DELETE FROM usuarios WHERE id = ?");
         $stmt->execute([$id]);
+
+        // Reativa a verificação de chave estrangeira
+        $pdo->exec("SET foreign_key_checks = 1;");
+
         echo "Usuário deletado com sucesso!";
     } catch (PDOException $e) {
         echo "Erro ao deletar usuário: " . $e->getMessage();
     }
 }
 ?>
+
