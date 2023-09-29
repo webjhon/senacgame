@@ -25,8 +25,6 @@ if (isset($_POST['id'])) {
     $id = $_POST['id'];
 
     try {
-        $sqlDesativarChavesEstrangeiras = "SET foreign_key_checks = 0";
-        $conn->query($sqlDesativarChavesEstrangeiras);
         $stmt = $pdo->prepare("DELETE FROM usuarios WHERE id = ?");
         $stmt->execute([$id]);
         echo "Usuário deletado com sucesso!";
