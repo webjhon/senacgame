@@ -133,7 +133,7 @@ function startQuiz() {
 }
 
 function restartQuiz() {
-    window.location.href = "cadastro.html";
+    window.location.href = "index.html";
 }
 
 
