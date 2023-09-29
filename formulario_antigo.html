@@ -1,0 +1,21 @@
+<!-- formulario.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form action="processa_formulario.php" method="post">
+        Nome: <input type="text" name="nome" required><br>
+        Telefone: <input type="text" name="telefone" required><br>
+        Curso de Interesse: 
+        <select name="curso">
+            <option value="informatica">Informática</option>
+            <option value="marketing">Marketing</option>
+            <option value="enfermagem">Enfermagem</option>
+        </select><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
