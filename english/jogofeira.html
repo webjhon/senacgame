@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0"></script>
+    <title>Show do Brindão</title>
+</head>
+<body>
+    <div class="logo-container">
+        <img id="logo" src="logomarca.png" style="width:200px; display:block;">
+        <!-- Logo-->
+    </div>
+    <div class="start-container" id="start-container">
+        <h2>Bem-vindo ao Show do Brindão!</h2>
+        <h3>Se você acertar todas as 5 perguntas, ganha um brinde! Mas lembre-se: o mais importante é aprender e se divertir. Vamos lá?</h3>
+        <button id="start-button">VAMOS COMEÇAR!</button>
+    </div>
+    <div class="quiz-container" id="quiz-container"></div>
+    <div class="countdown-container" id="countdown-container"></div>
+    <audio id="confirmationSound" src="seu_audio.mp3"></audio> <!-- Audio-->
+    <!-- Chamamento dos arquivos JS.-->
+    <script src="js/perguntas.js"></script>
+    <script src="js/funcionamento.js"></script>
+    <script src="js/premios.js"></script>
+</body>
+</html>
