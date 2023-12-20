@@ -80,9 +80,8 @@ function nextQuestion() {
 }
 
 function showResults() {
-    quizContainer.innerHTML = `<div class=""><h2 style="font-size: 2rem;">Você acertou ${score} de 5 questões!</h2><p>${score === 5 ? '<h3 style="font-weight:bold">Parabéns, você ganhou um brinde! Você deveria estudar mais informática, veja seu brinde abaixo!' : '<h3 style="font-weight:bold">Com o SENAC você tem futuro! Que tal estudar conosco, e aprender tudo que precisa? Veja seu brinde abaixo!</h3>'}</p></div>`;
+    quizContainer.innerHTML = `<div class=""><h2 style="font-size: 2rem;">Você acertou ${score} de 5 questões!</h2><p>${score === 5 ? '<h3 style="font-weight:bold">Parabéns! Continue estudando Inglês com o SENAC IDIOMAS, e seja um cidadão do mundo.' : '<h3 style="font-weight:bold">Com o SENAC você tem futuro! Que tal estudar conosco, e aprender tudo que precisa? Veja seu brinde abaixo!</h3>'}</p></div>`;
     countdownContainer.innerHTML = 'Preparando o próximo quiz em <span id="countdown">10</span> segundos...';
-    showPrize(score);
     countdown = setInterval(countdownTimer, 1000);
 
     // Se o jogador acertar todas as perguntas, dispara confetes

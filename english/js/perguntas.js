@@ -10,17 +10,17 @@
     Desenvolvido por: João Carlos
 */
 const quizQuestions = [
-    { question: 'O que significa "PC"?', answers: ['Personal Computer', 'Public Computer', 'Private Computer', 'Personal Calculator'], correct: 'Personal Computer' },
-    { question: 'O que usamos para digitar em um computador?', answers: ['Mouse', 'Monitor', 'Teclado', 'Impressora'], correct: 'Teclado' },
-    { question: 'Em que programa podemos fazer cálculos e criar tabelas?', answers: ['Word', 'Excel', 'PowerPoint', 'Paint'], correct: 'Excel' },
-    { question: 'Como chamamos um documento salvo com extensão .docx?', answers: ['Um arquivo Excel', 'Um arquivo Word', 'Um arquivo PowerPoint', 'Um arquivo de imagem'], correct: 'Um arquivo Word' }
+    { question: 'Qual a língua oficial dos estados unidos??', answers: ['Espanhol', '⁠Inglês Americano', '⁠Inglês Britânico', 'Nenhuma das alternativas'], correct: 'Nenhuma das alternativas' },
+    { question: 'Quais os acentos existentes no inglês?', answers: ['Agudo', '⁠Crase', '⁠Circunflexo', 'Nenhum'], correct: 'Nenhum' },
+    { question: 'O “Verb to Be” pode ser traduzido como quais verbos no português?', answers: ['Ser ou estar', 'Ter ou ler', '⁠Estar ou Tocar', '⁠Ser ou Ter'], correct: 'Ser ou estar' },
+    { question: 'Qual das alternativas representam a mesma coisa em Inglês Britânico e Inglês Americano?', answers: ['Autumn / Fall', '⁠Man / Men', '⁠Tooth / Teeth', 'God / Good'], correct: 'Autumn / Fall' }
 ];
 
 const finalQuestions = [
-    { question: 'O que significa a sigla "WWW"?', answers: ['Wild Wide Web', 'World Wide War', 'World Wide Web', 'Wide Web World'], correct: 'World Wide Web' },
-    { question: 'O que é um servidor?', answers: ['Um tipo de computador', 'Um programa de computador', 'Um cabo de rede', 'Um tipo de software'], correct: 'Um tipo de computador' },
-    { question: 'O que a CPU faz?', answers: ['Salva informações', 'Exibe informações', 'Processa informações', 'Transmite informações'], correct: 'Processa informações' },
-    { question: 'O que é um sistema operacional?', answers: ['Um tipo de hardware', 'Um tipo de rede', 'Um tipo de software', 'Um tipo de servidor'], correct: 'Um tipo de software' },
-    { question: 'Qual destes é um sistema operacional?', answers: ['Python', 'Java', 'Windows', 'Chrome'], correct: 'Windows' },
-    { question: 'O que significa "upload"?', answers: ['Excluir dados do computador', 'Salvar dados no computador', 'Enviar dados para a internet', 'Receber dados da internet'], correct: 'Enviar dados para a internet' }
+    { question: 'Qual o feminino das palavras beautiful, small, open e smart?', answers: ['beautifully, smally, smarty', 'beautiful, open, smart', '⁠beautifula, opena, smarta', 'ugly, close, dumb'], correct: 'beautiful, open, smart' },
+    { question: 'Quantos países possuem o Inglês como língua oficial?', answers: ['85', '⁠58', '99', '⁠67'], correct: '⁠67' },
+    { question: 'Qual a tradução correta da palavra “cachorro”', answers: ['God', 'Doog', 'Dog', 'Dogg'], correct: 'Dog' },
+    { question: 'Como se diz “saudade” em inglês', answers: ['Missing', '⁠Health', 'Saudady', '⁠Não há tradução'], correct: 'Não há tradução' },
+    { question: 'Qual a melhora hora para começar inglês?', answers: ['20-30', '40-50', '60-70', 'Agora'], correct: 'Agora' },
+    { question: 'Qual a melhor escola de inglês?', answers: ['English School', 'LearnIt', 'Red Hey', 'SENAC'], correct: 'SENAC' }
 ];
