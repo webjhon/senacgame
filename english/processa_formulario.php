@@ -22,7 +22,7 @@ try {
     $stmt = $pdo->prepare("INSERT INTO usuarios (nome, telefone, curso) VALUES (?, ?, ?)");
     $stmt->execute([$nome, $telefone, $curso]);
 
-    header('Location:jogofeira.html');
+    header('Location:english/jogofeira.html');
 } catch (PDOException $e) {
     throw new PDOException($e->getMessage(), (int)$e->getCode());
 }
